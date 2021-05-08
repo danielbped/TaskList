@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    
+    <main id = 'principal'>
+        <!-- <header>Minha Lista de Tarefas</header>
+        <p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p> -->
+        <section class = 'centralizar'>
+            <div class = "input">
+                <input type="text" min = 1 id ='texto-tarefa' autofocus>
+                <button id = 'criar-tarefa'>Adicionar</button>
+            </div>
+            <ol id = 'lista-tarefas'></ol>
+        </section>
+
+        <section class = 'botoes'>
+            <button id = 'mover-cima'><i class="fas fa-arrow-circle-up"></i></button>
+            <button id = 'mover-baixo'><i class="fas fa-arrow-circle-down"></i></button>
+            <button id = 'remover-selecionado'><i class="fas fa-times-circle"></i></button>
+            <button id = 'apaga-tudo'>Limpar lista</button>
+            <button id='remover-finalizados'>Limpar concluídos</button>
+            <button id = 'salvar-tarefas'>Salvar lista</button>
+        </section>
+    </main>
+    
+    <footer>Desenvolvido por Daniel Batista Pedrosa - 2021</footer>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

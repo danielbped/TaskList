@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background-color: lightgrey;
+    background-image: url(./thumb-1920-559128.jpg);
+    width: 100%;
+}
+#principal {
+    background-image: url(./d14a636c-6e6f-4e4b-9722-c00faa72b544.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    height: 100vh;
+    margin: auto;
+    padding: 2em;
+    padding-top: 20%;
+    width: 100vw;
+}
+
+.centralizar {
+    margin: auto;
+}
+
+#lista-tarefas {
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+}
+
+#texto-tarefa {
+    padding: .4em;
+}
+
+#texto-tarefa:focus {
+    outline: none;
+}
+
+button {
+    border-radius: 7px;
+    transition: 500ms;
+    border: none;
+    padding: .5em;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.tarefa {
+    text-shadow: 1px 1px black;
+}
+
+.tarefa, .selecionada, .completed{
+    color: #7B68EE;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.selecionada {
+    color: lightblue;
+}
+
+.completed {
+    text-decoration: line-through solid #D8BFD8;
+}
+
+#mover-cima, #mover-baixo {
+    margin: 3px;
+}
+
+#remover-selecionado {
+    margin-left: 3px;
+}
+
+.botoes {
+    vertical-align: bottom;
+}
+
+#remover-selecionado, #mover-cima, #mover-baixo {
+    font-size: 1.5em;
+    padding: 0;
+}
+
+#remover-finalizados, #apaga-tudo, #remover-selecionado {
+    background-color: #D8BFD8;   
+}
+
+#criar-tarefa, #salvar-tarefas, #mover-cima, #mover-baixo {
+    background-color: #B0E0E6;
+}
