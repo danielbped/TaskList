@@ -2,7 +2,7 @@
   - Módulo 1: Fundamentos do Desenvolvimento Web
     - Bloco 6: JavaScript: DOM, Eventos e Web Storage
     
-# Requisitos
+### Requisitos
 - [x] Adicione à sua lista o título "Minha Lista de Tarefas" em uma tag `<header>`
 - [x] Adicione abaixo do título um pequeno e discreto parágrafo com id="funcionamento" e com o texto "Clique duas vezes em um item para marcá-lo como completo"
 - [x] Adicione um input com o id="texto-tarefa" onde a pessoa usuária poderá digitar o nome do item que deseja adicionar à lista
